@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_landmarks"
+            android:icon="@drawable/landmark"
+            android:title="@string/landmarks" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/events"
+            android:title="@string/events" />
+        <item
+            android:id="@+id/nav_local_dishes"
+            android:icon="@drawable/local_dishes"
+            android:title="@string/local_dishes" />
+        <item
+            android:id="@+id/nav_restaurants"
+            android:icon="@drawable/restaurants"
+            android:title="@string/restaurants" />
+    </group>
+
+</menu>
